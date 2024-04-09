@@ -1,0 +1,129 @@
+{
+  "company": {
+    "name": "Data Burst",
+    "logo": "/assets/images/DATA-BURST-3.png"
+  },
+  "navigation": [
+    {
+      "name": "Focus Areas",
+      "href": "product"
+    },
+    {
+      "name": "Concepts",
+      "href": "features"
+    },
+    {
+      "name": "About",
+      "href": "about"
+    }
+  ],
+  "callToAction": {
+    "text": "Get started",
+    "href": "#"
+  },
+  "mainHero": {
+    "title": "DataBurst",
+    "subtitle": "Always First",
+    "description": "Welcome to DataBurst! With the exponential growth in data, expertise to extract its value remains scarce. But not for long! DataBurst is here! If you share this passion for big data infrastructure, we invite you to connect with our community!",
+    "img": "/assets/images/back-2.jpg",
+    "primaryAction": {
+      "text": "Get started",
+      "href": "#product"
+    },
+    "secondaryAction": {
+      "text": "Email us",
+      "href": "mailto:databurstacademy@gmail.com?subject=I like Data Burst!"
+    }
+  },
+  "product": {
+    "title": "DataBurst focus areas",
+    "items": [
+      {
+        "title": "Organizing online courses",
+        "description": "Curating online educational content and courses related to big data, data engineering, data science, and analytics.",
+        "img": "/assets/images/product1.jpg"
+      },
+      {
+        "title": "Providing big data consulting services",
+        "description": "Offering professional advisory and implementation services to help organizations effectively leverage big data technologies.",
+        "img": "/assets/images/product4.jpg"
+      },
+      {
+        "title": "Developing open-source tools",
+        "description": "Building and maintaining open-source software that provides value to the big data ecosystem.",
+        "img": "/assets/images/product2.jpg"
+      },
+      {
+        "title": "Cultivating a community of big data enthusiasts",
+        "description": "Creating spaces both online and offline for people passionate about big data to connect, share, and learn together.",
+        "img": "/assets/images/product3.jpg"
+      }
+    ]
+  },
+  "features": {
+    "title": "Latest & greatest ",
+    "subtitle": "Key concepts for managing data workflows",
+    "description": "Managing data workflows end-to-end is critical to extracting value from data. Focusing on these foundational ideas will equip you to drive more business value, whether just getting started or improving existing processes.",
+    "items": [
+      {
+        "name": "Data Ingestion",
+        "description": "The process of obtaining, validating, and importing data from various sources into storage repositories.",
+        "icon": "/assets/images/data_ingestion.png"
+      },
+      {
+        "name": "Data Processing",
+        "description": "Transforming, cleansing, and enriching data to prepare for analysis and application use cases.",
+        "icon": "/assets/images/data_processing.png"
+      },
+      {
+        "name": "Data Storage and Management",
+        "description": "Storing processed data in databases optimized for different analytics needs.",
+        "icon": "/assets/images/data_storage.png"
+      },
+      {
+        "name": "Metadata Management",
+        "description": "Tagging, cataloging, and managing metadata to increase data discoverability and usability.",
+        "icon": "/assets/images/data_metadata.png"
+      },
+      {
+        "name": "Monitoring Services",
+        "description": "Tracking data pipelines to detect issues and ensure reliable delivery and processing.",
+        "icon": "/assets/images/data_monitoring.png"
+      },
+      {
+        "name": "Data Pipelines",
+        "description": "Automating workflow orchestration to move data between systems and processes efficiently.",
+        "icon": "/assets/images/data_pipelines.png"
+      }
+    ]
+  },
+  "about": {
+    "sections": [
+      {
+        "name": "Something",
+        "href": "#",
+        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+      },
+      {
+        "name": "Something",
+        "href": "#",
+        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+      },
+      {
+        "name": "Something",
+        "href": "#",
+        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+      },
+      {
+        "name": "Something",
+        "href": "#",
+        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+      }
+    ],
+    "socialMedia": {
+      "github": "https://github.com/data-burst",
+      "twitter": "",
+      "linkedin": "https://www.linkedin.com/company/databurst"
+    }
+  }
+}
