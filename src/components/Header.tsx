@@ -1,10 +1,10 @@
-import React, { Fragment } from 'react';
+import React, { Fragment } from "react";
 
-import { Popover, Transition } from '@headlessui/react';
-import { MenuIcon, XIcon } from '@heroicons/react/outline';
-import { Link } from 'react-scroll';
+import { Popover, Transition } from "@headlessui/react";
+import { MenuIcon, XIcon } from "@heroicons/react/outline";
+import { Link } from "react-scroll";
 
-import config from '../config/index.json';
+import config from "../config/index.json";
 
 const Menu = () => {
   const { navigation, company, callToAction } = config;
@@ -34,9 +34,8 @@ const Menu = () => {
                   <span className="sr-only">{companyName}</span>
                   <img alt="logo" className="h-16 w-auto sm:h-16" src={logo} />
                 </a>
-                
+
                 <div className="-mr-2 flex items-center md:hidden">
-                  
                   <Popover.Button
                     className={`bg-background rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-secondary`}
                   >
@@ -46,16 +45,15 @@ const Menu = () => {
                 </div>
               </div>
             </div>
-            
+
             <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
-            <a
+              <a
                 href="#"
                 className={`font-medium text-primary hover:text-secondary`}
               >
                 DataBurst
               </a>
               {navigation.map((item) => (
-                
                 <Link
                   spy={true}
                   active="active"
@@ -68,7 +66,6 @@ const Menu = () => {
                   {item.name}
                 </Link>
               ))}
-
             </div>
           </nav>
         </div>
